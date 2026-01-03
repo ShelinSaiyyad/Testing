@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Test7 {
 
     public static void main() {
@@ -25,6 +27,41 @@ public class Test7 {
 
             System.out.println(a[i]);
         }
+
+
+
+        System.out.println("-------------------------------");
+
+
+        // Calculate frequency of array elements:
+
+        int arr[] = {1,3,4,1,1,4,4,1,2};
+
+        Arrays.sort(arr); // arr[]= {1,1,1,1,2,3,4,4,4}
+
+        int count = 1;
+
+        for (int f=1; f<arr.length; f++) {
+
+            if (arr[f]==arr[f-1]) {
+
+                count++;
+            }
+
+            else {
+
+
+                System.out.println(arr[f - 1] + " -> " + count);
+                count = 1;
+
+            }
+        }
+
+
+        if (arr.length > 0) {
+            System.out.println(arr[arr.length - 1] + " -> " + count);
+        }
+
 
     }
 }
