@@ -2,7 +2,10 @@ public class Test13 implements Test11, Test12 {
 
     public static void main(String[] args) {
 
-        Test11 t11 = new Test13();
+        //implementation of all the interface methods is compulsory.
+        //'implements' keyword is used to access/implement interfaces.
+
+        Test11 t11 = new Test13();  //Initializing class object (this object is referring methods in class- Test11 & Test12)
         t11.GreenGo();
         t11.RedStop();
         t11.YellowBeCareful();
