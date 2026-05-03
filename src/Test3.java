@@ -1,6 +1,8 @@
 public class Test3 {
     public static void main(String[] args) {
 
+        //Declares and arrey and allocate  memory for the values
+
         //Single D Array
   /*    int a[] = new int[5];
         a[0]=1;

@@ -2,6 +2,7 @@ public class Test8 {
 
     public static void main() {
 
+        //  String: It is a collection of characters in general.
         //  String: It is a predefined Class in java.
 
         String a = "Hello"; //String Literal
